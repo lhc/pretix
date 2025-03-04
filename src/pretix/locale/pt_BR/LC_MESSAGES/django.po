@@ -37638,7 +37638,7 @@ msgstr "Definir o preço em %(currency)s para %(item)s"
 #: pretix/presale/templates/pretixpresale/event/fragment_quota_left.html:4
 #, ignore-double-space, python-format
 msgid "%(num)s currently available"
-msgstr "%(num)s atualmente disponíveis"
+msgstr "%(num)s disponíveis"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:4
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:4

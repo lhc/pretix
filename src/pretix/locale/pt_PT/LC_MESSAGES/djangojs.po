@@ -889,12 +889,12 @@ msgstr "mais impostos"
 #, javascript-format
 msgctxt "widget"
 msgid "currently available: %s"
-msgstr "atualmente disponíveis: %s"
+msgstr "disponíveis: %s"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:37
 msgctxt "widget"
 msgid "Only available with a voucher"
-msgstr "Apenas disponível com um voucher"
+msgstr "Apenas disponível com um cupom"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:38
 #: pretix/static/pretixpresale/js/widget/widget.js:41
@@ -903,12 +903,12 @@ msgstr "Apenas disponível com um voucher"
 #| msgid "currently available: %s"
 msgctxt "widget"
 msgid "Not yet available"
-msgstr "atualmente disponíveis: %s"
+msgstr "Não disponível ainda"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:39
 msgctxt "widget"
 msgid "Not available anymore"
-msgstr ""
+msgstr "Não está mais disponível"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:40
 #, fuzzy
@@ -916,7 +916,7 @@ msgstr ""
 #| msgid "currently available: %s"
 msgctxt "widget"
 msgid "Currently not available"
-msgstr "atualmente disponíveis: %s"
+msgstr "Não disponível"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:42
 #, javascript-format
@@ -983,17 +983,17 @@ msgstr "Voltar ao checkout"
 #: pretix/static/pretixpresale/js/widget/widget.js:55
 msgctxt "widget"
 msgid "Redeem a voucher"
-msgstr "Usar um voucher"
+msgstr "Usar um cupom"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:56
 msgctxt "widget"
 msgid "Redeem"
-msgstr "Redimir"
+msgstr "Usar"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:57
 msgctxt "widget"
 msgid "Voucher code"
-msgstr "Código do voucher"
+msgstr "Código do cupom"
 
 #: pretix/static/pretixpresale/js/widget/widget.js:58
 msgctxt "widget"
