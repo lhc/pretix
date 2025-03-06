@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portuguese (Brazil) (pretix)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-06 14:05+0200\n"
+"POT-Creation-Date: 2025-03-06 21:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.pretix.eu/projects/"
@@ -1760,7 +1760,7 @@ msgstr "Código do pedido"
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/pending.html:134
 #, ignore-double-space
 msgid "Email address"
-msgstr "Endereço de eemail"
+msgstr "Endereço de email"
 
 #: pretix/base/exporters/invoices.py:203
 #: pretix/base/exporters/invoices.py:330
@@ -8733,7 +8733,7 @@ msgstr ""
 msgid ""
 "Only allow the usage of this payment provider in the selected sales channels."
 msgstr ""
-"Permita o uso deste provedor de pagamento apenas nos canais de vendas "
+"Permitir o uso deste provedor de pagamento apenas nos canais de vendas "
 "selecionados."
 
 #: pretix/base/payment.py:429
@@ -14679,9 +14679,9 @@ msgstr ""
 "lista de espera."
 
 #: pretix/base/shredder.py:421
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Attendee info"
-msgstr "Nome do participante"
+msgstr "Informações do participante"
 
 #: pretix/base/shredder.py:423
 #, ignore-double-space
@@ -15951,9 +15951,9 @@ msgstr ""
 "fatura seja emitida antes do pagamento."
 
 #: pretix/control/forms/event.py:945
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Recommended"
-msgstr "Pode ver os pedidos"
+msgstr "Recomendado"
 
 #: pretix/control/forms/event.py:957
 #, ignore-double-space
@@ -16630,7 +16630,7 @@ msgstr "Pedido feito em ou após"
 #: pretix/control/forms/filter.py:547
 #, ignore-double-space
 msgid "Order placed before"
-msgstr "Pedidos realizados antes"
+msgstr "Pedidos realizados antes de"
 
 #: pretix/control/forms/filter.py:576
 #, ignore-double-space
@@ -16833,12 +16833,12 @@ msgstr "Membros do time"
 #: pretix/control/forms/filter.py:1670
 #, ignore-double-space
 msgid "Shop live"
-msgstr ""
+msgstr "Loja ativa"
 
 #: pretix/control/forms/filter.py:1672
 #, ignore-double-space
 msgid "Shop not live"
-msgstr ""
+msgstr "Loja inativa"
 
 #: pretix/control/forms/filter.py:1675
 #, ignore-double-space
@@ -16848,7 +16848,7 @@ msgstr "Evento único em andamento ou no futuro"
 #: pretix/control/forms/filter.py:1676
 #, ignore-double-space
 msgid "Single event in the past"
-msgstr ""
+msgstr "Evento simples no passado"
 
 #: pretix/control/forms/filter.py:1878
 #: pretix/control/forms/filter.py:1880
@@ -16860,7 +16860,7 @@ msgstr "Buscar participante…"
 #: pretix/plugins/checkinlists/exporters.py:105
 #, ignore-double-space
 msgid "Check-in status"
-msgstr ""
+msgstr "Status do check-in"
 
 #: pretix/control/forms/filter.py:1888
 #: pretix/plugins/checkinlists/exporters.py:107
@@ -16961,7 +16961,7 @@ msgstr "Permitir ignorar a cota"
 #: pretix/control/forms/filter.py:2114
 #, ignore-double-space
 msgid "Filter by tag"
-msgstr ""
+msgstr "Filtrar por marcador"
 
 #: pretix/control/forms/filter.py:2119
 #: pretix/control/forms/filter.py:2121
@@ -17081,7 +17081,7 @@ msgstr "Data final"
 #: pretix/plugins/checkinlists/exporters.py:834
 #, ignore-double-space
 msgid "Check-in list"
-msgstr ""
+msgstr "Lista de check-in"
 
 #: pretix/control/forms/filter.py:2611
 #: pretix/control/templates/pretixcontrol/organizers/devices.html:82
@@ -17107,12 +17107,12 @@ msgstr "Todos os pedidos"
 #: pretix/control/forms/global_settings.py:62
 #, ignore-double-space
 msgid "Additional footer text"
-msgstr ""
+msgstr "Texto adicional de rodapé"
 
 #: pretix/control/forms/global_settings.py:63
 #, ignore-double-space
 msgid "Will be included as additional text in the footer, site-wide."
-msgstr ""
+msgstr "Será incluído como texto adicional no rodapé, em todo o site."
 
 #: pretix/control/forms/global_settings.py:68
 #, ignore-double-space
@@ -17958,9 +17958,9 @@ msgid "Validity start"
 msgstr "Início da validade"
 
 #: pretix/control/forms/orders.py:481
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Validity end"
-msgstr "Válido até"
+msgstr "Término da validade"
 
 #: pretix/control/forms/orders.py:493
 #, ignore-double-space
@@ -18137,9 +18137,9 @@ msgid "Free tickets and add-on products are not counted"
 msgstr "Ingressos gratuitos e produtos complementares não são contados"
 
 #: pretix/control/forms/orders.py:904
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Keep fees"
-msgstr "Taxas do pedido"
+msgstr "Manter taxas"
 
 #: pretix/control/forms/orders.py:907
 #, ignore-double-space
@@ -18151,14 +18151,14 @@ msgid ""
 msgstr ""
 
 #: pretix/control/forms/orders.py:913
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Send information via email"
-msgstr "Informações do pedido alteradas"
+msgstr "Enviar informação por email"
 
 #: pretix/control/forms/orders.py:919
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Send information to waiting list"
-msgstr "Informações do pedido alteradas"
+msgstr "Enviar informação para a lista de espera"
 
 #: pretix/control/forms/orders.py:934
 #: pretix/control/forms/orders.py:960
@@ -18260,9 +18260,9 @@ msgid "You cannot choose the base domain of this installation."
 msgstr "Você não pode escolher o domínio base desta instalação."
 
 #: pretix/control/forms/organizer.py:176
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "This domain is already in use for a different event or organizer."
-msgstr "O metodo de pagamento já está sendo usado por um evento diferente."
+msgstr "Este domínio já está em uso por um evento ou um organizador diferente."
 
 #: pretix/control/forms/organizer.py:185
 #, ignore-double-space
@@ -18798,11 +18798,13 @@ msgid ""
 "Position #{posid}: {old_item} ({old_price}) changed to {new_item} "
 "({new_price})."
 msgstr ""
+"Posição #{posid}: {old_item} ({old_price}) alterada para {new_item} "
+"({new_price})."
 
 #: pretix/control/logdisplay.py:110
 #, ignore-double-space, python-brace-format
 msgid "Position #{posid}: Used membership changed."
-msgstr ""
+msgstr "Posição #{posid}: Assinatura utilizada alterada."
 
 #: pretix/control/logdisplay.py:116
 #, ignore-double-space, python-brace-format
@@ -18863,7 +18865,7 @@ msgstr ""
 #: pretix/control/logdisplay.py:224
 #, ignore-double-space, python-brace-format
 msgid "Position #{posid} created: {item} ({price})."
-msgstr ""
+msgstr "Posição #{posid} criada: {item} ({price})."
 
 #: pretix/control/logdisplay.py:234
 #, ignore-double-space, python-brace-format
@@ -19049,9 +19051,9 @@ msgid "Blocked because of an API integration"
 msgstr "Bloqueado devido a uma integração de API"
 
 #: pretix/control/logdisplay.py:444
-#, fuzzy, ignore-double-space, python-brace-format
+#, ignore-double-space, python-brace-format
 msgid "The test mode order {code} has been deleted."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O pedido em modo de teste {code} foi excluído."
 
 #: pretix/control/logdisplay.py:445
 #, ignore-double-space
@@ -19427,9 +19429,9 @@ msgid "{user} has been invited to the team."
 msgstr "{user} foi convidado para o time."
 
 #: pretix/control/logdisplay.py:575
-#, fuzzy, ignore-double-space, python-brace-format
+#, ignore-double-space, python-brace-format
 msgid "Invite for {user} has been resent."
-msgstr "Seu carrinho foi atualizado."
+msgstr "Convite para {user} foi reenviado."
 
 #: pretix/control/logdisplay.py:586
 #, ignore-double-space, python-brace-format
@@ -19575,34 +19577,34 @@ msgid "The webhook call retry jobs have been dropped."
 msgstr "Seu carrinho foi atualizado."
 
 #: pretix/control/logdisplay.py:642
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The SSO provider has been created."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O provedor de SSO foi criado."
 
 #: pretix/control/logdisplay.py:643
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The SSO provider has been changed."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O provedor de SSO foi alterado."
 
 #: pretix/control/logdisplay.py:644
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The SSO provider has been deleted."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O provedor de SSO foi excluído."
 
 #: pretix/control/logdisplay.py:645
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The SSO client has been created."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O cliente de SSO foi criado."
 
 #: pretix/control/logdisplay.py:646
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The SSO client has been changed."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O cliente de SSO foi alterado."
 
 #: pretix/control/logdisplay.py:647
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The SSO client has been deleted."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O cliente de SSO foi excluído."
 
 #: pretix/control/logdisplay.py:648
 #: pretix/control/views/organizer.py:2341
@@ -19622,14 +19624,14 @@ msgstr "Seu carrinho foi atualizado."
 
 #: pretix/control/logdisplay.py:651
 #: pretix/control/views/organizer.py:3179
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The sales channel has been created."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O canal de vendas foi criado."
 
 #: pretix/control/logdisplay.py:652
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The sales channel has been changed."
-msgstr "Seu carrinho foi atualizado."
+msgstr "O canal de vendas foi alterado."
 
 #: pretix/control/logdisplay.py:653
 #, ignore-double-space
@@ -19637,29 +19639,29 @@ msgid "The sales channel has been deleted."
 msgstr "Este canal de vendas foi excluído."
 
 #: pretix/control/logdisplay.py:654
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The account has been created."
-msgstr "Seu carrinho foi atualizado."
+msgstr "A conta foi criada."
 
 #: pretix/control/logdisplay.py:655
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The account has been changed."
-msgstr "Seu carrinho foi atualizado."
+msgstr "A conta foi alterada."
 
 #: pretix/control/logdisplay.py:656
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "A membership for this account has been added."
-msgstr "Seu carrinho foi atualizado."
+msgstr "Uma assinatura para esta conta foi adicionada."
 
 #: pretix/control/logdisplay.py:657
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "A membership of this account has been changed."
-msgstr "Seu carrinho foi atualizado."
+msgstr "Uma assinatura para esta conta foi alterada."
 
 #: pretix/control/logdisplay.py:658
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "A membership of this account has been deleted."
-msgstr "Seu carrinho foi atualizado."
+msgstr "Uma assinatura para esta conta foi excluída."
 
 #: pretix/control/logdisplay.py:659
 #, fuzzy, ignore-double-space
@@ -19672,9 +19674,9 @@ msgid "A new password has been requested."
 msgstr "Uma nova senha foi solicitada."
 
 #: pretix/control/logdisplay.py:661
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "A new password has been set."
-msgstr "Seu carrinho foi atualizado."
+msgstr "Uma nova senha foi definida."
 
 #: pretix/control/logdisplay.py:662
 #, fuzzy, ignore-double-space
@@ -20447,7 +20449,7 @@ msgstr "Todos os cupons"
 #: pretix/control/navigation.py:284
 #, ignore-double-space
 msgid "Tags"
-msgstr ""
+msgstr "Marcadores"
 
 #: pretix/control/navigation.py:296
 #, ignore-double-space
@@ -20458,9 +20460,9 @@ msgstr "Validar"
 #: pretix/control/navigation.py:313
 #: pretix/control/templates/pretixcontrol/checkin/checkins.html:4
 #: pretix/control/templates/pretixcontrol/checkin/checkins.html:6
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Check-in history"
-msgstr "Pode mudar os pedidos"
+msgstr "Histórico de check-in"
 
 #: pretix/control/navigation.py:356
 #: pretix/control/templates/pretixcontrol/orders/search.html:19
@@ -20515,9 +20517,9 @@ msgstr "Todos os usuários"
 #: pretix/control/navigation.py:422
 #: pretix/control/templates/pretixcontrol/user/staff_session_list.html:5
 #: pretix/control/templates/pretixcontrol/user/staff_session_list.html:7
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Admin sessions"
-msgstr "Horário de entrada"
+msgstr "Sessões administrativas"
 
 #: pretix/control/navigation.py:429
 #: pretix/control/templates/pretixcontrol/global_settings_base.html:5
@@ -21171,9 +21173,9 @@ msgid "Card holder"
 msgstr "Portador do cartão"
 
 #: pretix/control/templates/pretixcontrol/boxoffice/payment.html:108
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Card expiration"
-msgstr "Posição do carrinho"
+msgstr "Expiração do cartão"
 
 #: pretix/control/templates/pretixcontrol/boxoffice/payment.html:112
 #, ignore-double-space
@@ -21738,6 +21740,7 @@ msgstr "Informações adicionais necessárias"
 msgid ""
 "The following questions must be answered before check-in can be completed:"
 msgstr ""
+"As seguintes perguntas devem ser respondidas antes de completar o check-in:"
 
 #: pretix/control/templates/pretixcontrol/checkin/simulator.html:92
 #, ignore-double-space
@@ -22483,9 +22486,9 @@ msgid "Shop status"
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/event/live.html:8
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Shop visibility"
-msgstr "Loja ativa"
+msgstr "Visibilidade da loja"
 
 #: pretix/control/templates/pretixcontrol/event/live.html:13
 #, ignore-double-space
@@ -22656,9 +22659,9 @@ msgstr "Configurações de email"
 
 #: pretix/control/templates/pretixcontrol/event/mail.html:21
 #: pretix/control/templates/pretixcontrol/organizers/mail.html:22
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Sending method"
-msgstr "Pergunta obrigatória"
+msgstr "Método de envio"
 
 #: pretix/control/templates/pretixcontrol/event/mail.html:25
 #: pretix/control/templates/pretixcontrol/organizers/mail.html:26
@@ -23121,9 +23124,9 @@ msgid "Custom fields"
 msgstr "Campos personalizados"
 
 #: pretix/control/templates/pretixcontrol/event/settings.html:110
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Manage questions"
-msgstr "Pergunta obrigatória"
+msgstr "Gerenciar perguntas"
 
 #: pretix/control/templates/pretixcontrol/event/settings.html:117
 #, ignore-double-space
@@ -23131,9 +23134,9 @@ msgid "Form settings"
 msgstr "Configurações de formulário"
 
 #: pretix/control/templates/pretixcontrol/event/settings.html:122
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Changes to existing orders"
-msgstr "Pode mudar os pedidos"
+msgstr "Alterações em pedidos existentes"
 
 #: pretix/control/templates/pretixcontrol/event/settings.html:130
 #, ignore-double-space
@@ -23387,9 +23390,9 @@ msgstr "Adicionar uma nova regra"
 
 #: pretix/control/templates/pretixcontrol/event/tax_edit.html:153
 #: pretix/control/templates/pretixcontrol/organizers/edit.html:373
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Change history"
-msgstr "Pode mudar os pedidos"
+msgstr "Histórico de alterações"
 
 #: pretix/control/templates/pretixcontrol/event/tax_index.html:9
 #, ignore-double-space
@@ -23408,14 +23411,14 @@ msgid "Rate"
 msgstr "Taxa"
 
 #: pretix/control/templates/pretixcontrol/event/tax_index.html:41
-#, fuzzy, ignore-double-space, python-format
+#, ignore-double-space, python-format
 msgid "incl. %(rate)s %%"
-msgstr "Taxas incluídas"
+msgstr "incl. %(rate)s %%"
 
 #: pretix/control/templates/pretixcontrol/event/tax_index.html:43
-#, fuzzy, ignore-double-space, python-format
+#, ignore-double-space, python-format
 msgid "excl. %(rate)s %%"
-msgstr "Taxas incluídas"
+msgstr "excl. %(rate)s %%"
 
 #: pretix/control/templates/pretixcontrol/event/tickets.html:8
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:13
@@ -23746,7 +23749,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/fragment_quota_box_paid.html:3
 #, ignore-double-space, python-format
 msgid "Currently available: %(num)s"
-msgstr "Disponíveis atualmente: %(num)s"
+msgstr "Disponíveis: %(num)s"
 
 #: pretix/control/templates/pretixcontrol/giftcards/checkout_confirm.html:4
 #, ignore-double-space, python-format
@@ -24064,9 +24067,9 @@ msgstr "Tipo do produto"
 
 #: pretix/control/templates/pretixcontrol/item/create.html:25
 #: pretix/control/templates/pretixcontrol/item/index.html:33
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Admission product"
-msgstr "Limitado aos produtos"
+msgstr "Produto de admissão"
 
 #: pretix/control/templates/pretixcontrol/item/create.html:27
 #: pretix/control/templates/pretixcontrol/item/index.html:35
@@ -24097,9 +24100,9 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/item/create.html:50
 #: pretix/control/templates/pretixcontrol/item/index.html:58
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Non-admission product"
-msgstr "Limitado aos produtos"
+msgstr "Produto de não admissão"
 
 #: pretix/control/templates/pretixcontrol/item/create.html:52
 #: pretix/control/templates/pretixcontrol/item/index.html:60
@@ -24166,6 +24169,9 @@ msgid ""
 "The system will not ask for a name or other attendee details. This only "
 "affects system-provided fields, you can still add your own questions."
 msgstr ""
+"O sistema não solicitará um nome ou outros detalhes do participante. Isso "
+"afeta apenas os campos fornecidos pelo sistema, você ainda pode adicionar "
+"suas próprias perguntas."
 
 #: pretix/control/templates/pretixcontrol/item/create.html:117
 #, ignore-double-space
@@ -24332,9 +24338,9 @@ msgid "Tickets & Badges"
 msgstr "INgressos & Crachás"
 
 #: pretix/control/templates/pretixcontrol/item/index.html:203
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Check-in & Validity"
-msgstr "Pode mudar os pedidos"
+msgstr "Check-in & Validade"
 
 #: pretix/control/templates/pretixcontrol/item/index.html:214
 #, ignore-double-space
@@ -24396,7 +24402,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/item/index.html:301
 #, ignore-double-space
 msgid "Product history"
-msgstr ""
+msgstr "Histórico do produto"
 
 #: pretix/control/templates/pretixcontrol/items/categories.html:7
 #, ignore-double-space
@@ -24458,7 +24464,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/items/category.html:39
 #, ignore-double-space
 msgid "Category history"
-msgstr ""
+msgstr "Histórico de categoria"
 
 #: pretix/control/templates/pretixcontrol/items/category_delete.html:4
 #: pretix/control/templates/pretixcontrol/items/category_delete.html:6
@@ -24469,7 +24475,7 @@ msgstr "Excluir categoria de produto"
 #: pretix/control/templates/pretixcontrol/items/category_delete.html:9
 #, ignore-double-space, python-format
 msgid "Are you sure you want to delete the category <strong>%(name)s</strong>?"
-msgstr ""
+msgstr "Você está certo que quer excluir a categoria <strong>%(name)s</strong>?"
 
 #: pretix/control/templates/pretixcontrol/items/discount.html:4
 #: pretix/control/templates/pretixcontrol/items/discount.html:6
@@ -24484,9 +24490,9 @@ msgid "Condition"
 msgstr "Condição"
 
 #: pretix/control/templates/pretixcontrol/items/discount.html:32
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Minimum cart content"
-msgstr "Número mínimo"
+msgstr "Conteúdo mínimo do carrinho"
 
 #: pretix/control/templates/pretixcontrol/items/discount.html:41
 #: pretix/plugins/stripe/templates/pretixplugins/stripe/checkout_payment_form_card.html:53
@@ -24725,7 +24731,7 @@ msgstr "Só pode ser comprado com um cupo9m"
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:411
 #, ignore-double-space, python-format
 msgid "<strong>plus</strong> %(rate)s%% %(taxname)s"
-msgstr ""
+msgstr "<strong>mais</strong> %(rate)s%% %(taxname)s"
 
 #: pretix/control/templates/pretixcontrol/items/index.html:144
 #: pretix/control/templates/pretixcontrol/order/index.html:632
@@ -24734,7 +24740,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:421
 #, ignore-double-space, python-format
 msgid "incl. %(rate)s%% %(taxname)s"
-msgstr ""
+msgstr "incl. %(rate)s%% %(taxname)s"
 
 #: pretix/control/templates/pretixcontrol/items/question.html:6
 #: pretix/control/templates/pretixcontrol/items/question.html:9
@@ -24793,7 +24799,7 @@ msgstr "Soma"
 #: pretix/control/templates/pretixcontrol/items/question.html:122
 #, ignore-double-space
 msgid "Question history"
-msgstr ""
+msgstr "Histórico de perguntas"
 
 #: pretix/control/templates/pretixcontrol/items/question_delete.html:4
 #: pretix/control/templates/pretixcontrol/items/question_delete.html:6
@@ -24823,9 +24829,9 @@ msgid ""
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/items/question_delete.html:25
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Delete question and all answers"
-msgstr "Perguntas"
+msgstr "Excluir pergunta e todas as respostas"
 
 #: pretix/control/templates/pretixcontrol/items/question_edit.html:30
 #, ignore-double-space
@@ -24890,9 +24896,9 @@ msgid "Create a new question"
 msgstr "Criar uma nova pergunta"
 
 #: pretix/control/templates/pretixcontrol/items/questions.html:50
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "System question"
-msgstr "Pergunta obrigatória"
+msgstr "Pergunta do sistema"
 
 #: pretix/control/templates/pretixcontrol/items/questions.html:60
 #, ignore-double-space
@@ -24900,9 +24906,9 @@ msgid "Ask during check-in"
 msgstr "Perguntar durante o check-in"
 
 #: pretix/control/templates/pretixcontrol/items/questions.html:79
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "All personalized products"
-msgstr "Limitado aos produtos"
+msgstr "Todos os produtos personalizados"
 
 #: pretix/control/templates/pretixcontrol/items/quota.html:6
 #: pretix/control/templates/pretixcontrol/items/quota.html:9
@@ -24953,7 +24959,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/items/quota.html:47
 #, ignore-double-space
 msgid "Usage overview"
-msgstr ""
+msgstr "Visão geral de utilização"
 
 #: pretix/control/templates/pretixcontrol/items/quota.html:54
 #, ignore-double-space
@@ -25056,9 +25062,9 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/oauth/app_delete.html:4
 #: pretix/control/templates/pretixcontrol/oauth/app_delete.html:6
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Disable application"
-msgstr "Nenhuma data selecionada."
+msgstr "Desabilitar aplicativo"
 
 #: pretix/control/templates/pretixcontrol/oauth/app_delete.html:9
 #, ignore-double-space, python-format
@@ -25145,7 +25151,7 @@ msgstr "Aplicações autorizadas"
 #: pretix/control/templates/pretixcontrol/oauth/authorized.html:9
 #, ignore-double-space
 msgid "Manage your own apps"
-msgstr ""
+msgstr "Gerenciar seus próprios aplicativos"
 
 #: pretix/control/templates/pretixcontrol/oauth/authorized.html:18
 #, ignore-double-space
@@ -25155,7 +25161,7 @@ msgstr "Permissões"
 #: pretix/control/templates/pretixcontrol/oauth/authorized.html:59
 #, ignore-double-space
 msgid "No applications have access to your pretix account."
-msgstr ""
+msgstr "Nenhum aplicativo tem acesso a sua conta pretix."
 
 #: pretix/control/templates/pretixcontrol/order/approve.html:4
 #: pretix/control/templates/pretixcontrol/order/approve.html:8
@@ -25166,7 +25172,7 @@ msgstr "Aprovar pedido"
 #: pretix/control/templates/pretixcontrol/order/approve.html:10
 #, ignore-double-space
 msgid "Do you really want to approve this order?"
-msgstr ""
+msgstr "Você quer realmente aprovar este pedido?"
 
 #: pretix/control/templates/pretixcontrol/order/approve.html:20
 #: pretix/control/templates/pretixcontrol/order/cancel.html:46
@@ -25225,9 +25231,9 @@ msgstr "Sim, cancele o pedido"
 
 #: pretix/control/templates/pretixcontrol/order/cancellation_request_delete.html:4
 #: pretix/control/templates/pretixcontrol/order/cancellation_request_delete.html:8
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Ignore cancellation request"
-msgstr "Taxa de cancelamento"
+msgstr "Ignorar solicitações de cancelamento"
 
 #: pretix/control/templates/pretixcontrol/order/cancellation_request_delete.html:10
 #, ignore-double-space
@@ -25238,9 +25244,9 @@ msgid ""
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/order/cancellation_request_delete.html:26
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Yes, delete request"
-msgstr "Ordens pendentes"
+msgstr "Sim, excluir solicitação"
 
 #: pretix/control/templates/pretixcontrol/order/change.html:7
 #: pretix/control/templates/pretixcontrol/order/change.html:13
@@ -25326,9 +25332,9 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/order/change.html:101
 #: pretix/control/templates/pretixcontrol/order/change.html:413
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Change to"
-msgstr "Pode mudar os pedidos"
+msgstr "Alterar para"
 
 #: pretix/control/templates/pretixcontrol/order/change.html:111
 #: pretix/control/templates/pretixcontrol/order/change.html:142
@@ -25462,7 +25468,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/order/change_questions.html:9
 #, ignore-double-space
 msgid "Change order information"
-msgstr ""
+msgstr "Alterar informação do pedido"
 
 #: pretix/control/templates/pretixcontrol/order/change_questions.html:25
 #: pretix/control/templates/pretixcontrol/order/index.html:946
@@ -25492,6 +25498,8 @@ msgid ""
 "Do you really want to delete this order? <strong>You really cannot revert "
 "this action and we can't either.</strong>"
 msgstr ""
+"Você quer realmente excluir este pedido? <strong>Ninguém mais poderá "
+"reverter esta ação!</strong>"
 
 #: pretix/control/templates/pretixcontrol/order/delete.html:25
 #, ignore-double-space
@@ -25514,13 +25522,13 @@ msgstr "Sim, recusar pedido"
 #: pretix/control/templates/pretixcontrol/order/index.html:61
 #, ignore-double-space
 msgid "Extend payment term"
-msgstr ""
+msgstr "Extender prazo de pagamento"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:13
 #: pretix/control/templates/pretixcontrol/order/index.html:20
 #, ignore-double-space, python-format
 msgid "Order details: %(code)s"
-msgstr ""
+msgstr "Detalhes do pedido: %(code)s"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:45
 #: pretix/control/templates/pretixcontrol/orders/index.html:298
@@ -25557,7 +25565,7 @@ msgstr "Visualizar pedido como usuário"
 #: pretix/control/templates/pretixcontrol/order/index.html:84
 #, ignore-double-space
 msgid "View email history"
-msgstr ""
+msgstr "Visualizar histórico de emails"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:88
 #, ignore-double-space
@@ -25567,7 +25575,7 @@ msgstr "Visualizar histórico de transações"
 #: pretix/control/templates/pretixcontrol/order/index.html:99
 #, ignore-double-space
 msgid "Expire order"
-msgstr ""
+msgstr "Expirar pedido"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:100
 #, ignore-double-space
@@ -25576,6 +25584,9 @@ msgid ""
 "orders automatically. To free quota capacity, you can mark it as expired "
 "manually."
 msgstr ""
+"O pagamento para este pedido está atrasado, porém você configurou para não "
+"expirar pedidos automaticamente. Para liberar a capacidade da cota, você "
+"precisa marcá-lo como expirado manualmente."
 
 #: pretix/control/templates/pretixcontrol/order/index.html:115
 #: pretix/control/views/orders.py:351
@@ -25586,7 +25597,7 @@ msgstr "Reembolso por pagamento em excesso"
 #: pretix/control/templates/pretixcontrol/order/index.html:117
 #, ignore-double-space, python-format
 msgid "This order is currently overpaid by %(amount)s."
-msgstr ""
+msgstr "O pedidos está pago em excesso por %(amount)s."
 
 #: pretix/control/templates/pretixcontrol/order/index.html:121
 #, ignore-double-space, python-format
@@ -25610,6 +25621,7 @@ msgstr "Solicitação de cancelamento"
 #, ignore-double-space
 msgid "The customer asked you to cancel the order with the following settings:"
 msgstr ""
+"O cliente solicitou o cancelamento do pedido com as seguintes configurações:"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:153
 #, ignore-double-space
@@ -25632,6 +25644,8 @@ msgid ""
 "This order will not expire automatically since it is already confirmed and "
 "can be used."
 msgstr ""
+"Este pedido não será expirado automaticamente já que ele foi confirmado e já "
+"pode ser utilizado."
 
 #: pretix/control/templates/pretixcontrol/order/index.html:210
 #, ignore-double-space
@@ -25650,6 +25664,8 @@ msgid ""
 "We know that this email address works because the user clicked a link we "
 "sent them."
 msgstr ""
+"Sabemos que este email funciona pois o cliente clicou em um link que "
+"enviamos para ele."
 
 #: pretix/control/templates/pretixcontrol/order/index.html:275
 #, ignore-double-space
@@ -25694,7 +25710,7 @@ msgstr "Gerar cancelamento"
 #: pretix/control/templates/pretixcontrol/order/index.html:312
 #, ignore-double-space
 msgid "Cancel and reissue"
-msgstr ""
+msgstr "Cancelar e reemitir"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:325
 #, fuzzy, ignore-double-space
@@ -25924,7 +25940,7 @@ msgstr "Checar"
 #: pretix/control/templates/pretixcontrol/order/index.html:1024
 #, ignore-double-space
 msgid "Order history"
-msgstr ""
+msgstr "Histórico do pedido"
 
 #: pretix/control/templates/pretixcontrol/order/mail_history.html:4
 #: pretix/control/templates/pretixcontrol/order/mail_history.html:7
@@ -26191,7 +26207,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/order/refund_start.html:32
 #, ignore-double-space
 msgid "Refund only"
-msgstr ""
+msgstr "Apenas reembolso"
 
 #: pretix/control/templates/pretixcontrol/order/refund_start.html:40
 #, ignore-double-space
@@ -26258,9 +26274,9 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/orders/bulk_action.html:5
 #: pretix/control/templates/pretixcontrol/orders/bulk_action.html:7
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Modify orders"
-msgstr "Ordens pagas"
+msgstr "Modificar pedido"
 
 #: pretix/control/templates/pretixcontrol/orders/bulk_action.html:12
 #, ignore-double-space, python-format
@@ -26352,9 +26368,9 @@ msgid ""
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/orders/cancel.html:83
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Cancel all orders"
-msgstr "Pode mudar os pedidos"
+msgstr "Cancelar todos os pedidos"
 
 #: pretix/control/templates/pretixcontrol/orders/export.html:5
 #: pretix/control/templates/pretixcontrol/orders/export.html:8
@@ -26425,17 +26441,17 @@ msgstr "Outras exportações"
 
 #: pretix/control/templates/pretixcontrol/orders/export.html:104
 #: pretix/control/templates/pretixcontrol/organizers/export.html:104
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Recommended for new users"
-msgstr "Pode ver os pedidos"
+msgstr "Recomendado para novos usuários"
 
 #: pretix/control/templates/pretixcontrol/orders/export_delete.html:4
 #: pretix/control/templates/pretixcontrol/orders/export_delete.html:6
 #: pretix/control/templates/pretixcontrol/organizers/export_delete.html:4
 #: pretix/control/templates/pretixcontrol/organizers/export_delete.html:6
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Delete scheduled export"
-msgstr "Nenhuma data selecionada."
+msgstr "Excluir relatório agendado"
 
 #: pretix/control/templates/pretixcontrol/orders/export_delete.html:9
 #: pretix/control/templates/pretixcontrol/organizers/export_delete.html:9
@@ -26617,7 +26633,7 @@ msgstr "Cancelado (taxa paga)"
 #: pretix/control/templates/pretixcontrol/orders/import_start.html:6
 #, ignore-double-space
 msgid "Import attendees"
-msgstr ""
+msgstr "Importar participantes"
 
 #: pretix/control/templates/pretixcontrol/orders/import_process.html:13
 #: pretix/control/templates/pretixcontrol/vouchers/import_process.html:13
@@ -26842,12 +26858,12 @@ msgstr "Excluir (apenas modo de teste)"
 #: pretix/control/templates/pretixcontrol/orders/overview.html:16
 #, ignore-double-space
 msgid "Order overview"
-msgstr ""
+msgstr "Visão geral dos pedidos"
 
 #: pretix/control/templates/pretixcontrol/orders/overview.html:10
 #, ignore-double-space
 msgid "Sales"
-msgstr "VEndas"
+msgstr "Vendas"
 
 #: pretix/control/templates/pretixcontrol/orders/overview.html:11
 #, ignore-double-space
@@ -26869,6 +26885,11 @@ msgid ""
 "be removed in the future. Use the \"Accounting report\" in the export "
 "section instead."
 msgstr ""
+"Não é recomendável filtrar por data, pois o resultado pode ser enganoso já "
+"que o relatório vê apenas o status atual dos pedidos, ignorando as "
+"alterações feitas anteriormente. Este filtro por data pode ser removido no "
+"futuro. Utilize o \"Relatório de Contabilidade\" na seção de exportação "
+"preferencialmente."
 
 #: pretix/control/templates/pretixcontrol/orders/overview.html:66
 #, ignore-double-space
@@ -26913,7 +26934,7 @@ msgstr "Ações"
 #: pretix/control/templates/pretixcontrol/search/orders.html:9
 #, ignore-double-space
 msgid "Order search"
-msgstr ""
+msgstr "Pesquisar pedidos"
 
 #: pretix/control/templates/pretixcontrol/organizers/channel_add.html:6
 #: pretix/control/templates/pretixcontrol/organizers/channel_add_choice.html:6
@@ -27023,9 +27044,9 @@ msgid "Usages"
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/organizers/customer.html:188
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Add membership"
-msgstr "Membros do time"
+msgstr "Adicionar assinatura"
 
 #: pretix/control/templates/pretixcontrol/organizers/customer.html:240
 #: pretix/presale/templates/pretixpresale/organizers/customer_orders.html:31
@@ -27034,9 +27055,9 @@ msgid "Matched to the account based on the email address."
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/organizers/customer.html:286
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Customer history"
-msgstr "Pode mudar os pedidos"
+msgstr "Histórico do cliente"
 
 #: pretix/control/templates/pretixcontrol/organizers/customer_anonymize.html:5
 #: pretix/control/templates/pretixcontrol/organizers/customer_anonymize.html:11
@@ -27234,7 +27255,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/device_revoke.html:9
 #, ignore-double-space
 msgid "Are you sure you want remove access for this device?"
-msgstr ""
+msgstr "Você está certo que quer remover o acesso para este dispositivo?"
 
 #: pretix/control/templates/pretixcontrol/organizers/device_revoke.html:10
 #, ignore-double-space
@@ -27645,7 +27666,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/giftcards.html:50
 #, ignore-double-space
 msgid "Manually issue a gift card"
-msgstr ""
+msgstr "Emitir um cartão-presente manualmente"
 
 #: pretix/control/templates/pretixcontrol/organizers/giftcards.html:65
 #, ignore-double-space
@@ -27681,9 +27702,9 @@ msgid "Customer account password reset"
 msgstr "Redefinição de senha de conta de cliente"
 
 #: pretix/control/templates/pretixcontrol/organizers/membershiptype_delete.html:5
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Delete membership type:"
-msgstr "Tipo de dispositivo"
+msgstr "Excluir tipo de assinatura:"
 
 #: pretix/control/templates/pretixcontrol/organizers/membershiptype_delete.html:9
 #, ignore-double-space
@@ -27702,9 +27723,9 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/organizers/membershiptype_edit.html:8
 #: pretix/control/templates/pretixcontrol/organizers/membershiptypes.html:21
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Create a new membership type"
-msgstr "Tipo de dispositivo"
+msgstr "Criar um novo tipo de assinatura"
 
 #: pretix/control/templates/pretixcontrol/organizers/membershiptypes.html:8
 #, ignore-double-space
@@ -27751,9 +27772,9 @@ msgid "Property:"
 msgstr "Propriedade:"
 
 #: pretix/control/templates/pretixcontrol/organizers/property_edit.html:20
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Usage"
-msgstr "Mensagem"
+msgstr "Utilização"
 
 #: pretix/control/templates/pretixcontrol/organizers/property_edit.html:26
 #, ignore-double-space
@@ -27830,9 +27851,9 @@ msgid "New medium"
 msgstr "Nova mídia"
 
 #: pretix/control/templates/pretixcontrol/organizers/ssoclient_delete.html:5
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Delete SSO client:"
-msgstr "Tipo de dispositivo"
+msgstr "Excluir cliente de SSO:"
 
 #: pretix/control/templates/pretixcontrol/organizers/ssoclient_delete.html:9
 #, ignore-double-space
@@ -27840,14 +27861,14 @@ msgid "Are you sure you want to delete this SSO client?"
 msgstr ""
 
 #: pretix/control/templates/pretixcontrol/organizers/ssoclient_delete.html:11
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "This SSO client cannot be deleted since it has already been used."
-msgstr "O pagamento desse pedido não ser realizado."
+msgstr "Este cliente de SSO não pode ser excluído já que ele já foi utilizado."
 
 #: pretix/control/templates/pretixcontrol/organizers/ssoclient_edit.html:6
 #, ignore-double-space
 msgid "SSO client:"
-msgstr ""
+msgstr "Cliente de SSO:"
 
 #: pretix/control/templates/pretixcontrol/organizers/ssoclient_edit.html:8
 #: pretix/control/templates/pretixcontrol/organizers/ssoclients.html:15
@@ -27876,7 +27897,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/ssoprovider_delete.html:11
 #, ignore-double-space
 msgid "This SSO provider cannot be deleted since it has already been used."
-msgstr ""
+msgstr "Este provedor de SSO não pode ser excluído já que ele já foi utilizado."
 
 #: pretix/control/templates/pretixcontrol/organizers/ssoprovider_edit.html:6
 #, ignore-double-space
@@ -28016,7 +28037,7 @@ msgstr "+ %(count)s convidados"
 #: pretix/control/templates/pretixcontrol/organizers/webhook_edit.html:6
 #, ignore-double-space
 msgid "Modify webhook"
-msgstr ""
+msgstr "Alterar webhook"
 
 #: pretix/control/templates/pretixcontrol/organizers/webhook_edit.html:8
 #, ignore-double-space
@@ -28026,12 +28047,12 @@ msgstr "Criar um novo webhook"
 #: pretix/control/templates/pretixcontrol/organizers/webhook_logs.html:5
 #, ignore-double-space, python-format
 msgid "Logs for webhook %(url)s"
-msgstr ""
+msgstr "Logs para webhook %(url)s"
 
 #: pretix/control/templates/pretixcontrol/organizers/webhook_logs.html:7
 #, ignore-double-space
 msgid "This page shows all calls to your webhook in the past 30 days."
-msgstr ""
+msgstr "Esta página exibe todas as chamadas em seu webhook nos últimos 30 dias."
 
 #: pretix/control/templates/pretixcontrol/organizers/webhook_logs.html:14
 #, ignore-double-space, python-format
@@ -28065,7 +28086,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/webhook_logs.html:73
 #, ignore-double-space
 msgid "Failed"
-msgstr ""
+msgstr "Falhou"
 
 #: pretix/control/templates/pretixcontrol/organizers/webhook_logs.html:83
 #, ignore-double-space
@@ -28097,35 +28118,35 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/organizers/webhooks.html:13
 #, ignore-double-space
 msgid "Read documentation"
-msgstr ""
+msgstr "Leia a documentação"
 
 #: pretix/control/templates/pretixcontrol/organizers/webhooks.html:19
 #, ignore-double-space
 msgid "You haven't created any webhooks yet."
-msgstr ""
+msgstr "Você ainda não criou nenhum webhook."
 
 #: pretix/control/templates/pretixcontrol/organizers/webhooks.html:25
 #: pretix/control/templates/pretixcontrol/organizers/webhooks.html:30
 #, ignore-double-space
 msgid "Create webhook"
-msgstr ""
+msgstr "Criar webhook"
 
 #: pretix/control/templates/pretixcontrol/pagination.html:11
 #, ignore-double-space
 msgid "Go to page 1"
-msgstr ""
+msgstr "Ir para página 1"
 
 #: pretix/control/templates/pretixcontrol/pagination.html:17
 #: pretix/control/templates/pretixcontrol/pagination.html:37
 #: pretix/control/templates/pretixcontrol/pagination.html:44
 #, ignore-double-space, python-format
 msgid "Go to page %(page)s"
-msgstr ""
+msgstr "Ir para página %(page)s"
 
 #: pretix/control/templates/pretixcontrol/pagination.html:27
 #, ignore-double-space
 msgid "Click to choose a page"
-msgstr ""
+msgstr "Clique para escolher uma página"
 
 #: pretix/control/templates/pretixcontrol/pagination.html:30
 #, ignore-double-space, python-format
@@ -28147,7 +28168,7 @@ msgstr "Exibir por página:"
 #: pretix/control/templates/pretixcontrol/pagination_huge.html:14
 #, ignore-double-space, python-format
 msgid "Page %(page)s"
-msgstr ""
+msgstr "Página %(page)s"
 
 #: pretix/control/templates/pretixcontrol/pdf/index.html:5
 #: pretix/control/templates/pretixcontrol/pdf/index.html:15
@@ -28198,7 +28219,7 @@ msgstr "Aplicar"
 #: pretix/control/templates/pretixcontrol/pdf/index.html:88
 #, ignore-double-space
 msgid "Uploading new PDF background…"
-msgstr ""
+msgstr "Enviando um novo plano de fundo PDF…"
 
 #: pretix/control/templates/pretixcontrol/pdf/index.html:96
 #, ignore-double-space
@@ -28768,7 +28789,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/subevents/detail.html:243
 #, ignore-double-space
 msgid "Add a new check-in list"
-msgstr ""
+msgstr "Adicionar uma nova lista de check-in"
 
 #: pretix/control/templates/pretixcontrol/subevents/bulk_edit.html:8
 #: pretix/control/templates/pretixcontrol/subevents/bulk_edit.html:11
@@ -28780,7 +28801,7 @@ msgstr "Alterar várias datas"
 #: pretix/control/templates/pretixcontrol/subevents/bulk_edit.html:153
 #, ignore-double-space
 msgid "Item prices"
-msgstr ""
+msgstr "Preços dos itens"
 
 #: pretix/control/templates/pretixcontrol/subevents/bulk_edit.html:187
 #, ignore-double-space
@@ -28967,7 +28988,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/user/2fa_confirm_totp.html:43
 #, ignore-double-space
 msgid "Can't scan the barcode?"
-msgstr ""
+msgstr "Não consegue ler o código de barras?"
 
 #: pretix/control/templates/pretixcontrol/user/2fa_confirm_totp.html:49
 #, ignore-double-space
@@ -29089,7 +29110,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/user/settings.html:45
 #, ignore-double-space
 msgid "Two-factor authentication"
-msgstr ""
+msgstr "Autenticação de dois fatores"
 
 #: pretix/control/templates/pretixcontrol/user/2fa_leaveteams.html:6
 #, ignore-double-space
@@ -29188,17 +29209,17 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/user/2fa_main.html:113
 #, ignore-double-space
 msgid "Registered devices"
-msgstr ""
+msgstr "Dispositivos registrados"
 
 #: pretix/control/templates/pretixcontrol/user/2fa_main.html:136
 #, ignore-double-space
 msgid "Add a new device"
-msgstr ""
+msgstr "Adicionar um novo dispositivo"
 
 #: pretix/control/templates/pretixcontrol/user/2fa_main.html:143
 #, ignore-double-space
 msgid "Emergency tokens"
-msgstr ""
+msgstr "Tokens de emergência"
 
 #: pretix/control/templates/pretixcontrol/user/2fa_main.html:147
 #, ignore-double-space
@@ -29352,7 +29373,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/user/settings.html:65
 #, ignore-double-space
 msgid "Show applications"
-msgstr ""
+msgstr "Exibir aplicativos"
 
 #: pretix/control/templates/pretixcontrol/user/settings.html:74
 #, ignore-double-space
@@ -29434,7 +29455,7 @@ msgstr "Configurações de login"
 #: pretix/control/templates/pretixcontrol/users/form.html:11
 #, ignore-double-space
 msgid "Send password reset email"
-msgstr ""
+msgstr "Enviar email de redefinição de senha"
 
 #: pretix/control/templates/pretixcontrol/users/form.html:17
 #, ignore-double-space
@@ -29596,9 +29617,9 @@ msgstr ""
 "disponível para uso até que as sessões expirem."
 
 #: pretix/control/templates/pretixcontrol/vouchers/detail.html:28
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Remove cart positions"
-msgstr "Posições do carrinho"
+msgstr "Remover posições do carrinho"
 
 #: pretix/control/templates/pretixcontrol/vouchers/detail.html:43
 #, ignore-double-space
@@ -29682,7 +29703,7 @@ msgstr "Use como modelo para novos cupons"
 #: pretix/control/templates/pretixcontrol/vouchers/tags.html:6
 #, ignore-double-space
 msgid "Voucher tags"
-msgstr ""
+msgstr "Marcadores de cupons"
 
 #: pretix/control/templates/pretixcontrol/vouchers/tags.html:8
 #, ignore-double-space
@@ -29699,18 +29720,18 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/vouchers/tags.html:43
 #, ignore-double-space
 msgid "Redeemed vouchers"
-msgstr ""
+msgstr "Resgatar cupons"
 
 #: pretix/control/templates/pretixcontrol/vouchers/tags.html:57
 #, ignore-double-space
 msgid "Empty tag"
-msgstr ""
+msgstr "Marcador vazio"
 
 #: pretix/control/templates/pretixcontrol/waitinglist/delete.html:4
 #: pretix/control/templates/pretixcontrol/waitinglist/delete.html:6
 #, ignore-double-space
 msgid "Delete entry"
-msgstr ""
+msgstr "Excluir entrada"
 
 #: pretix/control/templates/pretixcontrol/waitinglist/delete.html:9
 #, ignore-double-space, python-format
@@ -29721,9 +29742,9 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/waitinglist/delete_bulk.html:4
 #: pretix/control/templates/pretixcontrol/waitinglist/delete_bulk.html:6
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Delete entries"
-msgstr "Tipo de dispositivo"
+msgstr "Excluir entradas"
 
 #: pretix/control/templates/pretixcontrol/waitinglist/delete_bulk.html:10
 #, ignore-double-space
@@ -29798,7 +29819,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/waitinglist/index.html:86
 #, ignore-double-space
 msgid "Sales estimate"
-msgstr ""
+msgstr "Estimativa de vendas"
 
 #: pretix/control/templates/pretixcontrol/waitinglist/index.html:89
 #, ignore-double-space, python-format
@@ -29878,9 +29899,9 @@ msgstr "Transferir para outra data"
 
 #: pretix/control/templates/pretixcontrol/waitinglist/transfer.html:4
 #: pretix/control/templates/pretixcontrol/waitinglist/transfer.html:6
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Transfer entry"
-msgstr "Organizador"
+msgstr "Transferir entrada"
 
 #: pretix/control/templates/pretixcontrol/waitinglist/transfer.html:9
 #, ignore-double-space, python-format
@@ -29931,9 +29952,9 @@ msgid "Unlock"
 msgstr ""
 
 #: pretix/control/templatetags/hierarkey_form.py:80
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Go to organizer settings"
-msgstr "Organizadores"
+msgstr "Ir para configurações do organizador"
 
 #: pretix/control/templatetags/hierarkey_form.py:80
 #, ignore-double-space
@@ -30130,7 +30151,7 @@ msgstr "{quota} restante(s)"
 #: pretix/control/views/dashboards.py:272
 #, ignore-double-space
 msgid "Your ticket shop is"
-msgstr ""
+msgstr "Sua loja de ingressos está"
 
 #: pretix/control/views/dashboards.py:272
 #, ignore-double-space
@@ -30140,27 +30161,27 @@ msgstr "Clique aqui para alterar"
 #: pretix/control/views/dashboards.py:273
 #, ignore-double-space
 msgid "live"
-msgstr ""
+msgstr "ativa"
 
 #: pretix/control/views/dashboards.py:274
 #, ignore-double-space
 msgid "live and in test mode"
-msgstr ""
+msgstr "ativa e em modo de teste"
 
 #: pretix/control/views/dashboards.py:275
 #, ignore-double-space
 msgid "not yet public"
-msgstr ""
+msgstr "não pública"
 
 #: pretix/control/views/dashboards.py:276
 #, ignore-double-space
 msgid "in private test mode"
-msgstr ""
+msgstr "em modo de teste privado"
 
 #: pretix/control/views/dashboards.py:304
 #, ignore-double-space, python-brace-format
 msgid "Present – {list}"
-msgstr ""
+msgstr "Presentes – {list}"
 
 #: pretix/control/views/dashboards.py:322
 #, ignore-double-space
@@ -30199,7 +30220,7 @@ msgstr "Sem datas"
 #: pretix/presale/views/widget.py:445
 #, ignore-double-space
 msgid "Sale over"
-msgstr ""
+msgstr "Vendas encerradas"
 
 #: pretix/control/views/dashboards.py:536
 #: pretix/presale/templates/pretixpresale/fragment_calendar.html:119
@@ -30313,7 +30334,7 @@ msgstr ""
 #: pretix/control/views/event.py:978
 #, ignore-double-space
 msgid "Your shop is live now!"
-msgstr ""
+msgstr "Sua loja está ativa agora!"
 
 #: pretix/control/views/event.py:986
 #, ignore-double-space
@@ -30323,7 +30344,7 @@ msgstr ""
 #: pretix/control/views/event.py:994
 #, ignore-double-space
 msgid "Your shop is now in test mode!"
-msgstr ""
+msgstr "Sua loja está em modo de teste agora!"
 
 #: pretix/control/views/event.py:1011
 #, ignore-double-space
@@ -30336,16 +30357,18 @@ msgstr ""
 #, ignore-double-space
 msgid "We've disabled test mode for you. Let's sell some real tickets!"
 msgstr ""
+"Desabilitamos o modo de teste para você. Vamos vender alguns ingressos de "
+"verdade!"
 
 #: pretix/control/views/event.py:1039
 #, ignore-double-space
 msgid "This event can not be deleted."
-msgstr ""
+msgstr "Este evento não pode ser excluído."
 
 #: pretix/control/views/event.py:1062
 #, ignore-double-space
 msgid "The event has been deleted."
-msgstr ""
+msgstr "Este evento foi excluído."
 
 #: pretix/control/views/event.py:1065
 #, ignore-double-space
@@ -30365,7 +30388,7 @@ msgstr ""
 #: pretix/control/views/orders.py:760
 #, ignore-double-space
 msgid "The comment has been updated."
-msgstr ""
+msgstr "O comentário foi atualizado."
 
 #: pretix/control/views/event.py:1163
 #: pretix/control/views/orders.py:762
@@ -30576,7 +30599,7 @@ msgstr ""
 #: pretix/control/views/item.py:907
 #, ignore-double-space
 msgid "The new quota has been created."
-msgstr ""
+msgstr "A nova cota foi criada."
 
 #: pretix/control/views/item.py:970
 #, ignore-double-space
@@ -30594,9 +30617,9 @@ msgid "Available quota"
 msgstr "Cota disponível"
 
 #: pretix/control/views/item.py:998
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Waiting list (pending)"
-msgstr "Lista de espera"
+msgstr "Lista de espera (pendente)"
 
 #: pretix/control/views/item.py:1005
 #, ignore-double-space
@@ -30686,9 +30709,9 @@ msgid ""
 msgstr ""
 
 #: pretix/control/views/mailsetup.py:216
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The verification code was incorrect, please try again."
-msgstr "Ocorreu um erro enviando o email. Por favor, tente novamente em breve."
+msgstr "O código de verificação está incorreto. Tente novamente."
 
 #: pretix/control/views/mailsetup.py:221
 #, ignore-double-space
@@ -30723,12 +30746,12 @@ msgstr "Time {event}"
 #: pretix/control/views/modelimport.py:76
 #, ignore-double-space
 msgid "Please only upload CSV files."
-msgstr ""
+msgstr "Envie somente arquivos CSV."
 
 #: pretix/control/views/modelimport.py:79
 #, ignore-double-space
 msgid "Please do not upload files larger than 10 MB."
-msgstr ""
+msgstr "Não envie arquivos maiores de 10MB."
 
 #: pretix/control/views/modelimport.py:154
 #, ignore-double-space
@@ -30892,9 +30915,9 @@ msgstr ""
 "A solicitação foi removida. Se você quiser, pode informar ao usuário agora."
 
 #: pretix/control/views/orders.py:995
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Your cancellation request"
-msgstr "Taxa de cancelamento"
+msgstr "Seus pedidos de cancelamento"
 
 #: pretix/control/views/orders.py:996
 #, ignore-double-space, python-brace-format
@@ -30961,7 +30984,7 @@ msgstr ""
 #: pretix/control/views/orders.py:1340
 #, ignore-double-space
 msgid "A refund of {} has been processed."
-msgstr ""
+msgstr "Um reembolso de {} foi processado."
 
 #: pretix/control/views/orders.py:1344
 #, ignore-double-space
@@ -31028,7 +31051,7 @@ msgstr ""
 #: pretix/control/views/orders.py:1618
 #, ignore-double-space
 msgid "No country specified."
-msgstr ""
+msgstr "Nenhum país especificado."
 
 #: pretix/control/views/orders.py:1622
 #, ignore-double-space
@@ -31051,7 +31074,7 @@ msgstr ""
 #: pretix/control/views/orders.py:1683
 #, ignore-double-space
 msgid "Unknown invoice."
-msgstr ""
+msgstr "Fatura desconhecida."
 
 #: pretix/control/views/orders.py:1653
 #, ignore-double-space
@@ -31121,12 +31144,12 @@ msgstr ""
 #: pretix/control/views/orders.py:1796
 #, ignore-double-space
 msgid "This action is only allowed for pending orders."
-msgstr ""
+msgstr "Esta ação não é permitida para pedidos pendentes."
 
 #: pretix/control/views/orders.py:1851
 #, ignore-double-space
 msgid "This action is only allowed for canceled orders."
-msgstr ""
+msgstr "Esta ação não é permitida para pedidos cancelados."
 
 #: pretix/control/views/orders.py:2108
 #: pretix/presale/views/order.py:1563
@@ -31137,7 +31160,7 @@ msgstr ""
 #: pretix/control/views/orders.py:2116
 #, ignore-double-space
 msgid "The order has been changed and the user has been notified."
-msgstr ""
+msgstr "O pedido foi alterado e o usuário foi notificado."
 
 #: pretix/control/views/orders.py:2118
 #: pretix/control/views/orders.py:2254
@@ -31145,7 +31168,7 @@ msgstr ""
 #: pretix/presale/views/order.py:1598
 #, ignore-double-space
 msgid "The order has been changed."
-msgstr ""
+msgstr "O pedido foi alterado."
 
 #: pretix/control/views/orders.py:2145
 #: pretix/presale/checkoutflow.py:945
@@ -31304,12 +31327,12 @@ msgstr ""
 #: pretix/control/views/organizer.py:568
 #, ignore-double-space
 msgid "Administrators"
-msgstr ""
+msgstr "Administradores"
 
 #: pretix/control/views/organizer.py:631
 #, ignore-double-space
 msgid "The team has been created. You can now add members to the team."
-msgstr ""
+msgstr "O time foi criado. Você pode agora adicionar membros nele."
 
 #: pretix/control/views/organizer.py:642
 #: pretix/control/views/organizer.py:678
@@ -31332,12 +31355,12 @@ msgstr ""
 #: pretix/control/views/organizer.py:3234
 #, ignore-double-space
 msgid "Your changes could not be saved."
-msgstr ""
+msgstr "Suas alterações não puderam ser salvas."
 
 #: pretix/control/views/organizer.py:711
 #, ignore-double-space
 msgid "The selected team cannot be deleted."
-msgstr ""
+msgstr "O time selecionado não pode ser excluído."
 
 #: pretix/control/views/organizer.py:723
 #, ignore-double-space
@@ -31368,7 +31391,7 @@ msgstr ""
 #: pretix/control/views/organizer.py:812
 #, ignore-double-space
 msgid "The member has been removed from the team."
-msgstr ""
+msgstr "O membro foi removido do time."
 
 #: pretix/control/views/organizer.py:819
 #: pretix/control/views/organizer.py:835
@@ -31496,7 +31519,7 @@ msgstr "O cartão-presente foi criado e já pode ser utilizado."
 #: pretix/control/views/organizer.py:1708
 #, ignore-double-space
 msgid "All events (that I have access to)"
-msgstr ""
+msgstr "Todos os eventos (que eu tenho acesso)"
 
 #: pretix/control/views/organizer.py:2075
 #, ignore-double-space
@@ -31667,7 +31690,7 @@ msgstr "{} novas datas foram criadas."
 #: pretix/control/views/typeahead.py:92
 #, ignore-double-space
 msgid "Series:"
-msgstr ""
+msgstr "Séries:"
 
 #: pretix/control/views/typeahead.py:115
 #, ignore-double-space
@@ -31682,7 +31705,7 @@ msgstr "Cupom {}"
 #: pretix/control/views/user.py:162
 #, ignore-double-space
 msgid "The password you entered was invalid, please try again."
-msgstr ""
+msgstr "Senha informada inválida. Tente novamente."
 
 #: pretix/control/views/user.py:350
 #, ignore-double-space
@@ -31970,17 +31993,17 @@ msgstr "Nome da domínio"
 #: pretix/multidomain/models.py:50
 #, ignore-double-space
 msgid "Mode"
-msgstr ""
+msgstr "Modo"
 
 #: pretix/multidomain/models.py:69
 #, ignore-double-space
 msgid "Known domain"
-msgstr ""
+msgstr "Domínio conhecido"
 
 #: pretix/multidomain/models.py:70
 #, ignore-double-space
 msgid "Known domains"
-msgstr ""
+msgstr "Domínios conhecidos"
 
 #: pretix/plugins/autocheckin/apps.py:30
 #: pretix/plugins/autocheckin/apps.py:33
@@ -32005,7 +32028,7 @@ msgstr "Nenhuma data selecionada."
 #: pretix/plugins/webcheckin/apps.py:34
 #, ignore-double-space
 msgid "the pretix team"
-msgstr ""
+msgstr "time pretix"
 
 #: pretix/plugins/autocheckin/apps.py:39
 #, ignore-double-space
@@ -32176,22 +32199,22 @@ msgstr "Um crachá por página"
 #: pretix/plugins/badges/exporters.py:97
 #, ignore-double-space
 msgid "4 landscape A6 pages on one A4 page"
-msgstr ""
+msgstr "4 páginas A6 em modo paisagem em uma página A4"
 
 #: pretix/plugins/badges/exporters.py:105
 #, ignore-double-space
 msgid "4 portrait A6 pages on one A4 page"
-msgstr ""
+msgstr "4 páginas A6 em modo retrato em uma página A4"
 
 #: pretix/plugins/badges/exporters.py:113
 #, ignore-double-space
 msgid "8 landscape A7 pages on one A4 page"
-msgstr ""
+msgstr "8 páginas A7 em modo paisagem em uma página A4"
 
 #: pretix/plugins/badges/exporters.py:121
 #, ignore-double-space
 msgid "8 portrait A7 pages on one A4 page"
-msgstr ""
+msgstr "8 páginas A7 em modo retrato em uma página A4"
 
 #: pretix/plugins/badges/exporters.py:353
 #, ignore-double-space
@@ -32301,7 +32324,7 @@ msgstr ""
 #: pretix/plugins/badges/forms.py:33
 #, ignore-double-space
 msgid "Template"
-msgstr ""
+msgstr "Modelo"
 
 #: pretix/plugins/badges/forms.py:34
 #, ignore-double-space
@@ -32313,7 +32336,7 @@ msgstr ""
 #: pretix/plugins/badges/forms.py:51
 #, ignore-double-space
 msgid "(Do not print badges)"
-msgstr ""
+msgstr "(Não imprimir crachás)"
 
 #: pretix/plugins/badges/forms.py:84
 #: pretix/plugins/badges/templates/pretixplugins/badges/edit.html:8
@@ -32413,9 +32436,9 @@ msgstr ""
 
 #: pretix/plugins/badges/templates/pretixplugins/badges/index.html:17
 #: pretix/plugins/badges/templates/pretixplugins/badges/index.html:24
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Create a new badge layout"
-msgstr "Tipo de dispositivo"
+msgstr "Criar um novo modelo de crachá"
 
 #: pretix/plugins/badges/templates/pretixplugins/badges/index.html:63
 #: pretix/plugins/ticketoutputpdf/templates/pretixplugins/ticketoutputpdf/index.html:60
@@ -32436,9 +32459,9 @@ msgid "The requested badge layout does not exist."
 msgstr "O modelo de crachá requisitado não existe."
 
 #: pretix/plugins/badges/views.py:195
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "The selected badge layout been deleted."
-msgstr "O evento selecionado não foi encontrado."
+msgstr "O modelo de crachá selecionado foi excluído."
 
 #: pretix/plugins/badges/views.py:217
 #, ignore-double-space
@@ -32572,9 +32595,9 @@ msgid "Prefix for the payment reference"
 msgstr ""
 
 #: pretix/plugins/banktransfer/payment.py:174
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Additional text to show on pending orders"
-msgstr "Incluir ordens pendentes"
+msgstr "Texto adicional para exibir em pedidos pendentes"
 
 #: pretix/plugins/banktransfer/payment.py:175
 #, ignore-double-space
@@ -32644,9 +32667,9 @@ msgid "Please fill out your bank account details."
 msgstr ""
 
 #: pretix/plugins/banktransfer/payment.py:292
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Please enter your bank account details."
-msgstr "Por favor insira apenas números."
+msgstr "Informe os detalhes da conta bancária."
 
 #: pretix/plugins/banktransfer/payment.py:332
 #, ignore-double-space
@@ -32717,7 +32740,7 @@ msgstr ""
 #: pretix/plugins/banktransfer/payment.py:660
 #, ignore-double-space
 msgid "BIC (optional)"
-msgstr ""
+msgstr "BIC (opcional)"
 
 #: pretix/plugins/banktransfer/payment.py:699
 #, ignore-double-space
@@ -33152,7 +33175,7 @@ msgstr "Baixar CSV"
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/refund_export.html:101
 #, ignore-double-space
 msgid "SEPA XML"
-msgstr ""
+msgstr "SEPA XML"
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/refund_export.html:110
 #, ignore-double-space
@@ -33162,7 +33185,7 @@ msgstr "Nenhuma exportação foi criada ainda."
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/sepa_export.html:10
 #, ignore-double-space
 msgid "Export SEPA xml"
-msgstr ""
+msgstr "Exportar SEPA XML"
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/sepa_export.html:13
 #, ignore-double-space, python-format
@@ -33236,12 +33259,12 @@ msgstr ""
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/transaction_list.html:106
 #, ignore-double-space
 msgid "Order already paid"
-msgstr ""
+msgstr "Pedido já pago"
 
 #: pretix/plugins/banktransfer/templates/pretixplugins/banktransfer/transaction_list.html:123
 #, ignore-double-space
 msgid "Discard"
-msgstr ""
+msgstr "Descartar"
 
 #: pretix/plugins/banktransfer/views.py:146
 #, ignore-double-space
@@ -33407,7 +33430,7 @@ msgstr "Incluir perguntas"
 #: pretix/plugins/checkinlists/exporters.py:301
 #, ignore-double-space
 msgid "Check-in list (PDF)"
-msgstr ""
+msgstr "Lista de check-in (PDF)"
 
 #: pretix/plugins/checkinlists/exporters.py:302
 #: pretix/plugins/checkinlists/exporters.py:473
@@ -33424,6 +33447,8 @@ msgid ""
 "Download a PDF version of a check-in list that can be used to check people "
 "in at the event without digital methods."
 msgstr ""
+"Baixar versão PDF da lista de check-in para ser utilizada no evento sem "
+"meios digitais."
 
 #. Translators: maximum 5 characters
 #: pretix/plugins/checkinlists/exporters.py:371
@@ -33486,7 +33511,7 @@ msgstr ""
 #: pretix/plugins/checkinlists/exporters.py:760
 #, ignore-double-space
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 #: pretix/plugins/checkinlists/exporters.py:761
 #, ignore-double-space
@@ -33957,7 +33982,7 @@ msgstr ""
 #: pretix/plugins/paypal2/payment.py:1087
 #, ignore-double-space, ignore-same
 msgid "PayPal APM"
-msgstr ""
+msgstr "PayPal APM"
 
 #: pretix/plugins/paypal2/payment.py:1088
 #, fuzzy, ignore-double-space
@@ -34204,9 +34229,9 @@ msgid ""
 msgstr ""
 
 #: pretix/plugins/reports/accountingreport.py:58
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Accounting report"
-msgstr "Informações da conta alteradas"
+msgstr "Relatório de Contabilidade"
 
 #: pretix/plugins/reports/accountingreport.py:60
 #, ignore-double-space
@@ -34301,12 +34326,12 @@ msgstr "Página %d"
 #: pretix/plugins/reports/exporters.py:202
 #, ignore-double-space, python-format
 msgid "Created: %s"
-msgstr ""
+msgstr "Criado: %s"
 
 #: pretix/plugins/reports/exporters.py:245
 #, ignore-double-space
 msgid "Order overview (PDF)"
-msgstr ""
+msgstr "Visão geral dos pedidos (PDF)"
 
 #: pretix/plugins/reports/exporters.py:247
 #, ignore-double-space
@@ -34996,9 +35021,9 @@ msgid ""
 msgstr ""
 
 #: pretix/plugins/sendmail/views.py:250
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Orders or attendees"
-msgstr "Pedido reativado"
+msgstr "Pedidos ou participantes"
 
 #: pretix/plugins/sendmail/views.py:251
 #, ignore-double-space
@@ -35081,9 +35106,9 @@ msgid ""
 msgstr ""
 
 #: pretix/plugins/statistics/templates/pretixplugins/statistics/index.html:67
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Seating Overview"
-msgstr "Nome do dispositivo"
+msgstr "Visão geral dos assentos"
 
 #: pretix/plugins/statistics/templates/pretixplugins/statistics/index.html:74
 #, ignore-double-space
@@ -37437,7 +37462,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_availability.html:6
 #, ignore-double-space
 msgid "Enter a voucher code below to buy this product."
-msgstr "Resgate um cupom abaixo para ter acesso a este produto."
+msgstr "Para acessar este produto é necessário resgatar um cupom válido abaixo."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_availability.html:10
 #: pretix/presale/templates/pretixpresale/event/fragment_availability.html:14
@@ -37651,7 +37676,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:502
 #, ignore-double-space
 msgid "Overview of your ordered products."
-msgstr ""
+msgstr "Visão geral dos produtos solicitados."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart_box.html:50
 #, ignore-double-space
@@ -37689,9 +37714,9 @@ msgid "Redeem voucher"
 msgstr "Resgatar cupom"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:10
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Change summary"
-msgstr "Pode mudar os pedidos"
+msgstr "Alterar resumo"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_change_confirm.html:19
 #, ignore-double-space, python-format
@@ -37929,7 +37954,7 @@ msgstr "Término: %(time)s"
 #: pretix/presale/templates/pretixpresale/event/fragment_event_info.html:41
 #, ignore-double-space, python-format
 msgid "Admission: %(time)s"
-msgstr "Adminissão: %(time)s"
+msgstr "Admissão: %(time)s"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_event_info.html:49
 #, ignore-double-space, python-format
@@ -38003,7 +38028,7 @@ msgstr "Definir o preço em %(currency)s para %(item)s"
 #: pretix/presale/templates/pretixpresale/event/fragment_quota_left.html:4
 #, ignore-double-space, python-format
 msgid "%(num)s currently available"
-msgstr "%(num)s atualmente disponíveis"
+msgstr "%(num)s disponíveis"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:4
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:4
@@ -38175,9 +38200,9 @@ msgstr "Reenviar link do pedido"
 
 #: pretix/presale/templates/pretixpresale/event/offline.html:4
 #: pretix/presale/templates/pretixpresale/event/offline.html:8
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Shop offline"
-msgstr "Loja ativa"
+msgstr "Loja inativa"
 
 #: pretix/presale/templates/pretixpresale/event/offline.html:9
 #, ignore-double-space
@@ -38370,9 +38395,9 @@ msgid "Your information"
 msgstr "Suas informações"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:289
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Change your information"
-msgstr "Meta informação"
+msgstr "Alterar suas informações"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:334
 #, ignore-double-space
@@ -38723,9 +38748,9 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/position_change.html:10
 #: pretix/presale/templates/pretixpresale/event/position_change_confirm.html:6
 #: pretix/presale/templates/pretixpresale/event/position_change_confirm.html:11
-#, fuzzy, ignore-double-space
+#, ignore-double-space
 msgid "Change ticket"
-msgstr "Pode mudar os pedidos"
+msgstr "Alterar ingresso"
 
 #: pretix/presale/templates/pretixpresale/event/position_change.html:16
 #, ignore-double-space
@@ -38803,9 +38828,8 @@ msgid ""
 "For the selected date, there are currently no products available that can be "
 "bought with this voucher. Please try a different date or a different voucher."
 msgstr ""
-"Para a data selecionada, atualmente não há produtos disponíveis que possam "
-"ser comprados com este cupom. Por favor, tente uma data diferente ou um "
-"cupom diferente."
+"Não há produtos disponíveis na data selecionada que possam ser comprados com "
+"este cupom. Por favor, tente uma data ou um cupom diferente."
 
 #: pretix/presale/templates/pretixpresale/event/voucher.html:47
 #, ignore-double-space
@@ -39428,7 +39452,7 @@ msgstr "Seu carrinho está agora vazio."
 #: pretix/presale/views/cart.py:546
 #, ignore-double-space
 msgid "The products have been successfully added to your cart."
-msgstr "Os produtos foram adicionados com sucesso ao seu carrinho."
+msgstr "Produtos adicionados ao carrinho com sucesso."
 
 #: pretix/presale/views/cart.py:570
 #: pretix/presale/views/event.py:536
